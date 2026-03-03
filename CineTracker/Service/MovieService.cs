@@ -12,7 +12,7 @@ namespace CineTracker.Services
         private readonly HttpClient _httpClient;
 
         // API KEY(Örn: ("8a1b2c3d")
-        private readonly string _apiKey = "432a6c45";
+        private readonly string _apiKey = "YOUR_OMDb_API_KEY";
 
         public MovieService()
         {
