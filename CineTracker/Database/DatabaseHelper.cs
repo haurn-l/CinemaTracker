@@ -7,7 +7,7 @@ namespace CineTracker.Database
     public class DatabaseHelper
     {
        
-        private static string connectionString = "Server=localhost;Database=sinevazyon_db;Uid=root;Pwd=2024123011Qk!;";
+        private static string connectionString = "Server=localhost;Database=YOUR_DB_NAME;Uid=root;Pwd=YOUR_PASSWORD!;";
 
         // Her veritabanı işlemi gerektiğinde bu metodu çağırıp kapıyı açacağız
         public static MySqlConnection GetConnection()
